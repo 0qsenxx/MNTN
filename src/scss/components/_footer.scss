@@ -1,0 +1,141 @@
+// Footer
+.footer {
+  background-color: $backgroundColor;
+  padding-bottom: 120px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.footer .container {
+  display: flex;
+}
+
+.footer__title {
+  color: $textColor;
+  font-family: "Lato";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+}
+
+.footer__description {
+  color: $textColor;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 177.778%;
+  max-width: 340px;
+  margin-top: 24px;
+}
+
+.privacy__footer {
+  color: $textColor;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 177.778%;
+  opacity: 0.5;
+  margin-top: 70px;
+  text-wrap: nowrap;
+}
+
+.footer-blog__box {
+  margin-left: 150px;
+}
+
+.footer-blog__title {
+  color: $accentColor;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133.333%;
+  text-wrap: nowrap;
+}
+
+.footer-blog__list {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-blog__item {
+  overflow: hidden;
+
+  &::after {
+    content: "";
+    width: auto;
+    height: 2px;
+    display: block;
+    background-color: $accentColor;
+    overflow: hidden;
+    transform: translate(-100%, 0);
+    transition-duration: 500ms;
+  }
+
+  &:hover::after {
+    // width: auto;
+    overflow: hidden;
+    transform: translate(0, 0);
+  }
+}
+
+.footer-blog__text {
+  color: $textColor;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 177.778%;
+}
+
+.more__box {
+  margin-left: 212px;
+}
+
+.more__title {
+  color: $accentColor;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133.333%;
+  text-wrap: nowrap;
+}
+
+.more__list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  gap: 16px;
+}
+
+.more__text {
+  color: $textColor;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 177.778%;
+}
+
+.more__item {
+  overflow: hidden;
+
+  &::after {
+    content: "";
+    width: auto;
+    height: 2px;
+    display: block;
+    background-color: $accentColor;
+    overflow: hidden;
+    transform: translate(-100%, 0);
+    transition-duration: 500ms;
+  }
+
+  &:hover::after {
+    // width: auto;
+    overflow: hidden;
+    transform: translate(0, 0);
+  }
+}

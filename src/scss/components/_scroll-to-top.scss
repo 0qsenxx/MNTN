@@ -1,0 +1,15 @@
+.scroll-to-top__link {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $textColor;
+    transform: rotate(-180deg);
+}

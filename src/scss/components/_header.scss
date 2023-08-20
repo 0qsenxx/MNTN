@@ -1,0 +1,79 @@
+// Header
+.header {
+  position: absolute;
+  top: 64px;
+}
+
+.header__box {
+  display: flex;
+}
+
+.header-logo__box {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo__title {
+  color: $textColor;
+  font-family: "Lato";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-left: 530px;
+}
+
+.header__item {
+  overflow: hidden;
+
+  &::after {
+    content: "";
+    width: auto;
+    height: 2px;
+    display: block;
+    background-color: $accentColor;
+    overflow: hidden;
+    transform: translate(-100%, 0);
+    transition-duration: 500ms;
+  }
+
+  &:hover::after {
+    // width: auto;
+    overflow: hidden;
+    transform: translate(0, 0);
+  }
+}
+
+.header-item__link {
+  color: $textColor;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-wrap: nowrap;
+}
+
+.header__login {
+  margin-left: 390px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.account__link {
+  color: $textColor;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
